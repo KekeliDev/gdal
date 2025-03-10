@@ -325,6 +325,8 @@ func (src RasterBand) ContourGenerate(
     return CPLErrContainer{ErrVal: cErr}.Err() // No CPLErr cast
 }
 
+
+
 /* --------------------------------------------- */
 /* Rasterizer functions                          */
 /* --------------------------------------------- */
